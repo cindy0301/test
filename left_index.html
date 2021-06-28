@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<!-- 向搜尋引擎表示你的網站屬於中文網站 -->
+<html lang="zh-Hant-TW">
+
+<head>
+    <!-- 網站文字編碼 -->
+    <meta charset="utf-8">
+
+    <!-- 頁面隨裝置大小改變 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <!-- 網頁描述 -->
+    <meta name="description" content="我們一起去旅行">
+    <meta name="author" content="Cindy">
+    
+    <!-- 網站縮圖 -->
+    <link rel="shortcut icon" href="img/Food JinN (1).png">
+    
+    <!-- 網站分頁中顯示的名稱 -->
+    <title>我們一起去旅行</title>
+
+    <!-- 連結到css -->
+    <link rel="stylesheet" href="css/left_navbar.css">
+
+	<!-- 連結到javascript -->
+	<!-- <script src="js/left_index.js"></script> -->
+
+    <!-- Bootstrap css -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+</head>
+<body>
+  <!-- top_nb -->
+  <div class="left">
+    <ul class="topnav">
+      <li><a href="#page1">首頁</a></li>
+      <li><a href="one_intr.html">平溪</a></li>
+      <li><a href="two_intr.html">九份</a></li>
+	  <li><a href="three_intr.html">淡水</a></li>
+			<div class="sidebar-footer">
+				<li><a href="#about">關於作者</a></li>
+			</div>
+    </ul>
+
+  </div>
+	<div class="right">
+		<!-- 第一個部分 -->
+		<div id="page1" class="block1">
+				<h1 style="text-align: center; padding: 80px; margin: 0;">首頁內容</h1>
+				<p style="text-align: center;">測試開發中...</p>
+		</div>
+
+		<!-- 第二個部分 -->
+		<div id="page2" class="block2">
+			<h1 style="text-align: center;padding: 80px; margin: 0;">平溪</h1>
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				"  <img src="img/img_nature_wide.jpg" style="width:100%">
+				</div>
+				<div class="mySlides fade">
+				  <img src="img/img_snow_wide.jpg" style="width:100%">
+				</div>
+				<div class="mySlides fade">
+				  <img src="img/img_mountains_wide.jpg" style="width:100%">
+				</div>
+			</div>
+			<br>
+			<div style="text-align:center">
+			    <span class="dot" onclick="currentSlide(1)"></span> 
+			    <span class="dot" onclick="currentSlide(2)"></span> 
+			    <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+			<!-- 連結到javascript -->
+			<script src="js/left_index.js"></script>
+		</div>
+
+		<!-- 第三個部分 -->
+		<div id="page3" class="block3">
+			<h1 style="text-align: center; padding: 80px; margin: 0;">九份</h1>
+			<p style="text-align: center;">測試開發中...</p>
+		</div>    
+
+		<!-- 第四個部分-->
+		<div id="page4" class="block4">
+			<h1 style="text-align: center; padding: 80px; margin: 0;">淡水</h1>
+			<p style="text-align: center;">測試開發中...</p>
+		</div>
+  
+		<!-- 版權宣告 -->
+		<footer id="about">
+			<p style="text-align: center; padding: 10px; margin: 0;">21309羅儀芯</p>
+		</footer>
+	</div>
+</body>
+</html>
